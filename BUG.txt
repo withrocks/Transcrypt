@@ -1,0 +1,6 @@
+// Here is an issue with transcrypt, TODO: create a branch there and an issue pointing to it
+// Should: [0] + [4, 7, 9] + [11] = [0, 4, 7, 9, 11]
+// Is:     [04, 7, 911]
+// Python code (slightly changed):
+//   ixs = [1, 2, 3]
+//   ixs = [0] + ixs + [4]
